@@ -1,0 +1,237 @@
+.hero__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__section>p {
+    display: flex;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 70px;
+    align-items: center;
+    text-align: center;
+    color: var(--text-color);
+
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+.hero__section-btn {
+    display: flex;
+    flex-direction: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.hero__section-btn>button {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.game-btn {
+    background: #0165E7;
+    border: 1px solid #0165E7;
+}
+
+.game-btn:hover {
+    background: #5d7ba3;
+}
+
+.token-btn {
+    background: #DE00AC;
+    border: 1px solid #DE00AC;
+}
+
+.token-btn:hover {
+    background-color: #a7739b;
+}
+
+.image__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 40px
+}
+
+.image__icon>img {
+    width: 24px;
+    height: 24px;
+}
+
+.objective__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 23%, rgba(52, 13, 56, 1) 50%, rgba(7, 2, 23, 1) 77%);
+}
+
+.objective__heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.objective__heading>h2 {
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFC50C;
+
+    margin-top: 30px;
+}
+
+.objective__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+
+    margin-top: 30px;
+}
+
+.objective__image {
+    display: flex;
+}
+
+.objective__image>img {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero__section>p {
+        font-size: 50px;
+        line-height: 80px;
+    }
+
+    .objective__section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding: 0 40px;
+        margin-top: 30px;
+    }
+
+    .objective__text>h2 {
+        /* flex: 0.5; */
+        display: flex;
+        font-size: 40px;
+        line-height: 25px;
+    }
+
+    .objective__text {
+        /* display: flex;
+        justify-content: flex-start;
+        align-items: center; */
+        flex-wrap: wrap;
+        font-size: 14px;
+        line-height: 26px;
+        /* outline: 1px solid red; */
+        text-align: center;
+
+    }
+
+    /* .objective__image {
+        display: flex;
+    } */
+
+    .objective__image>img {
+        width: 350px;
+        height: 250px;
+
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .objective__heading>h2 {
+        font-size: 50px;
+        line-height: 24px;
+    }
+
+    .objective__text {
+        flex-wrap: wrap;
+        font-size: 16px;
+        line-height: 28px;
+        /* outline: 1px solid red; */
+        text-align: center;
+
+    }
+
+}
+
+@media screen and (min-width: 1250px) {
+    .hero__section>p {
+        font-size: 81px;
+        line-height: 115px;
+        margin-bottom: 40px;
+    }
+
+    .hero__section-btn>button {
+        width: 227px;
+        height: 69px;
+    }
+
+    .objective__section {
+
+        gap: 80px;
+        padding: 0 140px;
+        margin-top: 30px;
+    }
+
+    .objective__heading>h2 {
+        font-size: 60px;
+        line-height: 30px;
+    }
+
+    .objective__text {
+
+        font-size: 18px;
+        line-height: 30px;
+        /* outline: 1px solid red; */
+        text-align: center;
+
+    }
+
+    .objective__image>img {
+        width: 608.69px;
+        height: 438px;
+    }
+}

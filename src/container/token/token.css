@@ -1,0 +1,267 @@
+.token__section {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 1rem;
+    margin-bottom: 4rem;
+}
+
+.token__feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.token__feature>h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 2.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFC50C;
+
+    margin-top: 1rem;
+}
+
+.token__feature>p {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 4rem;
+    text-align: center;
+    color: var(--subtext-color);
+
+    margin-top: 2rem;
+}
+
+.token_display {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+@media screen and (min-width: 768px) {
+    .token__feature>h2 {
+
+        font-size: 4rem;
+        line-height: 2.5rem;
+
+    }
+
+    .token__feature>p {
+
+        font-size: 2.5rem;
+        line-height: 5rem;
+        width: 100%;
+        max-width: 550px;
+
+    }
+
+    .token-content {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* width: 547px;
+        height: 248px; */
+
+        padding: 6rem 3rem;
+        margin-top: 2rem;
+        gap: 1rem;
+    }
+
+    .token-text>h2 {
+        font-size: 2.5rem;
+        line-height: 2.4rem;
+
+    }
+
+    .token-text>p {
+
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        /* outline: 1px solid red; */
+        max-width: 320px;
+
+    }
+
+    .token-img>img {
+        /* outline: 1px solid red; */
+        padding: 0 2rem;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .token-content {
+        width: 460px;
+        height: 230px;
+    }
+
+    .token_display {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .token-content {
+        width: 547px;
+        height: 248px;
+    }
+   
+    .token-text>p {
+
+        font-size: 1.8rem;
+        line-height: 3rem;
+        /* outline: 1px solid red; */
+        max-width: 320px;
+
+    }
+
+    .token-text>h2 {
+        font-size: 3rem;
+        line-height: 3.12rem;
+
+    }
+}
+
+
+
+
+
+
+
+/* .token {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.token-content {
+    width: 547px;
+    height: 248px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #250325;
+    border-radius: 15px 0px;
+    padding: 0px 60px;
+
+
+}
+
+.token-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0 50px;
+
+}
+
+.token-img>img {
+    position: absolute;
+    top: -40px;
+    left: -30px;
+
+}
+
+
+.token-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.token-heading {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 31px;
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 0.8);
+
+    margin-top: 40px;
+   
+}
+
+.token-para {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 3rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+
+    margin-top: 20px;
+
+}
+
+@media screen and (max-width: 576px) {
+    .token-content {
+        width: 310px;
+        height: 160px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: #250325;
+        border-radius: 15px 0px;
+
+    }
+
+    .token-text {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10px;
+        margin-left: -60px;
+    }
+
+    .token-heading {
+
+        font-size: 1.6rem;
+        line-height: 24px;
+
+        margin-top: 10px;
+
+    }
+
+    .token-para {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        text-align: center;
+        margin-top: 10px;
+        padding: 0 5px;
+
+    }
+
+    .token-img>img {
+        width: 50%;
+        top: -10px;
+        left: -20px;
+
+    }
+
+} */
