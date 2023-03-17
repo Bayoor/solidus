@@ -3,9 +3,12 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    margin-left: 30px;
-    margin-top: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 23%, rgba(52, 13, 56, 1) 50%, rgba(7, 2, 23, 1) 77%);
 }
+
 
 .app__navbar-logo {
     display: flex;

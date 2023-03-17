@@ -2,6 +2,7 @@ import React from "react";
 import "./navbar.css";
 import solidus from "../../assets/icons/logo.svg";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 const Menu = () => (
   <>
@@ -10,7 +11,9 @@ const Menu = () => (
     <li>Roadmap</li>
     <li>Whitepaper</li>
     <li>Games</li>
-    <li>contact</li>
+    <li>
+      <Link to="/contact">contact</Link>
+    </li>
     <li>Other</li>
     <div className="flex__list">
       <li>Connect wallet</li>

@@ -5,7 +5,7 @@
 :root {
   --font-family: 'Roboto', sans-serif;
   /* --text-color: #0076A7; */
-  --subtext-color:rgba(255, 255, 255, 0.75);; 
+  --subtext-color:rgba(255, 255, 255, 0.75);
   --text-color: #fff;
     font-size: 62.5%;
 }
