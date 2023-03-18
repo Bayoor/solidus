@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import { Link } from "react-router-dom";
 import solidus from "../../assets/icons/logo.svg";
 import twitter from "../../assets/icons/twitter.svg";
 import telegram from "../../assets/icons/telegram.svg";
@@ -28,7 +29,9 @@ const Footer = () => {
       <div className="footer-flex">
         <div className="footer-links ">
           <h2 className="links">Useful Links</h2>
-          <p>Home</p>
+          <p>
+            <Link to="/">Home</Link>
+          </p>
           <p>About</p>
           <p>Roadmap</p>
           <p>Games</p>

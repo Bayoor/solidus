@@ -8,7 +8,7 @@ import Services from "../services/Services";
 import Token from "../token/Token";
 import Roadmap from "../roadmap/Roadmap";
 import Social from "../social/Social";
-import Footer from "../../components/footer/Footer";
+
 
 const Homepage = () => {
   return (
@@ -44,7 +44,6 @@ const Homepage = () => {
         <Token />
         <Roadmap />
         <Social />
-        <Footer />
     </>
   );
 };
